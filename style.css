@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation menu يظل في الوسط */
+nav {
+    background-color: #1e3a8a;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center; 
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* العناوين الرئيسية في الصفحة Home تبقى مركزية */
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #0f172a;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+h2 {
+    color: #1e40af;
+    font-size: 24px;
+}
+
+h3 {
+    color: #1e3a8a;
+    margin-top: 25px;
+    text-align: left; /* العناوين الفرعية تبدأ من اليسار */
+    margin-left: 15%; /* مسافة من اليسار */
+}
+
+/* الصور تبقى مركزية */
+img {
+    border-radius: 15px;
+    margin: 20px 0;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+    margin-left: 15%; /* نفس المسافة للعناصر اليسار */
+}
+
+/* القوائم تبدأ من اليسار */
+ul {
+    list-style-type: square;
+    display: block;
+    text-align: left;
+    margin-left: 15%;
+    padding-left: 20px;
+    width: 70%;
+}
+
+/* الجداول تبدأ من اليسار */
+table {
+    margin: 20px 0 20px 15%;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+td a {
+    color: #1e40af;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: #ff7f50;
+}
+email-link {
+    display: block;      /* ليأخذ سطراً كاملاً وينزل تحت العنوان */
+    margin-left: 15%;    /* نفس مسافة الجدول والعناوين */
+    margin-top: 10px;    /* مسافة بسيطة من العنوان */
+    margin-bottom: 20px; /* مسافة قبل العنوان الذي يليه */
+    color: #1e40af;      /* نفس درجة لون العناوين */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+email-link:hover {
+    color: #ff7f50;      /* يتغير اللون عند تمرير الماوس مثل الجدول */
+    text-decoration: underline;
+}
+
+
+
+
+/* الفورم تبدأ من اليسار */
+form {
+    background-color: #ffffff;
+    width: 50%;
+    margin: 20px 0 20px 15%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background-color: #1e3a8a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* الفقرة الخاصة بمستقبلك في 4 سنوات */
+p {
+    width: 70%;
+    margin: 20px 0 20px 15%;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0f172a;
+    text-align: left;
+}
