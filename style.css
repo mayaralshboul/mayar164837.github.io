@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/* Navigation menu يظل في الوسط */
+
 nav {
     background-color: #1e3a8a;
     padding: 15px 0;
@@ -27,7 +27,7 @@ nav a:hover {
     color: #ffdd57;
 }
 
-/* العناوين الرئيسية في الصفحة Home تبقى مركزية */
+
 h1, h2 {
     text-align: center;
 }
@@ -46,22 +46,20 @@ h2 {
 h3 {
     color: #1e3a8a;
     margin-top: 25px;
-    text-align: left; /* العناوين الفرعية تبدأ من اليسار */
-    margin-left: 15%; /* مسافة من اليسار */
+    text-align: left; 
+    margin-left: 15%; 
 }
 
-/* الصور تبقى مركزية */
+
 img {
     border-radius: 15px;
-    margin: 20px 0;
-    width: 200px;
+    margin: 20px auto; 
+    width: 150px;      
     height: auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    display: block;
-    margin-left: 15%; /* نفس المسافة للعناصر اليسار */
-}
+    display: block;    
 
-/* القوائم تبدأ من اليسار */
+
 ul {
     list-style-type: square;
     display: block;
@@ -71,7 +69,7 @@ ul {
     width: 70%;
 }
 
-/* الجداول تبدأ من اليسار */
+
 table {
     margin: 20px 0 20px 15%;
     border-collapse: collapse;
@@ -101,24 +99,24 @@ td a:hover {
     color: #ff7f50;
 }
 email-link {
-    display: block;      /* ليأخذ سطراً كاملاً وينزل تحت العنوان */
-    margin-left: 15%;    /* نفس مسافة الجدول والعناوين */
-    margin-top: 10px;    /* مسافة بسيطة من العنوان */
-    margin-bottom: 20px; /* مسافة قبل العنوان الذي يليه */
-    color: #1e40af;      /* نفس درجة لون العناوين */
+    display: block;      
+    margin-left: 15%;    
+    margin-top: 10px;    
+    margin-bottom: 20px; 
+    color: #1e40af;      
     text-decoration: none;
     font-weight: bold;
 }
 
 email-link:hover {
-    color: #ff7f50;      /* يتغير اللون عند تمرير الماوس مثل الجدول */
+    color: #ff7f50;      
     text-decoration: underline;
 }
 
 
 
 
-/* الفورم تبدأ من اليسار */
+
 form {
     background-color: #ffffff;
     width: 50%;
@@ -159,7 +157,7 @@ button:hover {
     background-color: #2563eb;
 }
 
-/* الفقرة الخاصة بمستقبلك في 4 سنوات */
+
 p {
     width: 70%;
     margin: 20px 0 20px 15%;
@@ -167,4 +165,5 @@ p {
     line-height: 1.6;
     color: #0f172a;
     text-align: left;
+
 }
